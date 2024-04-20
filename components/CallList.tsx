@@ -112,7 +112,7 @@ const CallList = ({ type }: CallListProps) => {
               }
               isPreviousMeeting={type === 'ended'}
               buttonIcon1={
-                type === 'recordings' ? '/icons/plays.svg' : undefined
+                type === 'recordings' ? '/icons/play.svg' : undefined
               }
               buttonText={type === 'recordings' ? 'Play' : 'Start'}
               link={
